@@ -1,0 +1,178 @@
+<?php
+
+return [
+    'name' => 'SoftEnture',
+    'tagline' => 'AI-Enabled Digital Marketing Agency',
+    'description' => 'SoftEnture is an AI-enabled digital marketing agency in Noida helping businesses grow online with SEO, PPC, Shopify, web development, and performance marketing.',
+    'phone' => '+91-6392136200',
+    'phone_display' => '063921 36208',
+    'email' => 'hello@softenture.com',
+    'address' => 'Community Centre, Burari, Delhi 110042',
+    'hours' => 'Mon–Sat: 9:00 AM – 7:00 PM',
+    'founded' => '2010',
+    'clients' => '16,000+',
+    'countries' => '28+',
+    'reviews' => '600+',
+    'rating' => '4.9',
+
+    'stats' => [
+        ['value' => '16+', 'label' => 'Years Experience'],
+        ['value' => '16K+', 'label' => 'Global Clients'],
+        ['value' => '9.4X', 'label' => 'Average ROAS'],
+        ['value' => '162%', 'label' => 'YoY Revenue Growth'],
+    ],
+
+    'services' => [
+        'seo-ai-search' => [
+            'title' => 'SEO & AI Search Visibility',
+            'badge' => 'Most Requested',
+            'icon' => 'search',
+            'short' => 'Rank on Google and get cited by ChatGPT, Gemini, Perplexity and AI Overviews.',
+            'description' => 'Traditional SEO meets next-gen GEO/LLMO. We optimize your brand for both search engines and AI answer engines so you stay visible wherever customers discover businesses.',
+            'features' => [
+                'Technical SEO audits & fixes',
+                'AI search & LLM optimization (GEO/AEO)',
+                'Local SEO & Google Maps dominance',
+                'Content strategy for authority building',
+                'Live ranking & citation tracking',
+            ],
+            'metrics' => ['2X–6X Revenue Growth', '127% MQL Increase'],
+        ],
+        'ppc-paid-media' => [
+            'title' => 'Performance & Paid Media',
+            'badge' => 'High ROI',
+            'icon' => 'target',
+            'short' => 'Google, Meta, YouTube and shopping campaigns engineered for ROAS, not vanity clicks.',
+            'description' => 'Data-driven paid media campaigns across Google Ads, Meta, YouTube, and Amazon. Every rupee is optimized for return on ad spend with continuous A/B testing and conversion tracking.',
+            'features' => [
+                'Google Ads & Performance Max',
+                'Meta & Instagram advertising',
+                'YouTube & display campaigns',
+                'Shopping & marketplace ads',
+                'GA4 conversion tracking & reporting',
+            ],
+            'metrics' => ['9.4X Average ROAS', '250% ROI Boost'],
+        ],
+        'web-app-development' => [
+            'title' => 'Web & App Development',
+            'badge' => 'Fast-Moving',
+            'icon' => 'code',
+            'short' => 'Conversion-first websites, stores and apps built on WordPress, Shopify, and custom stacks.',
+            'description' => 'We build lightning-fast, conversion-optimized digital experiences. From corporate websites to complex web applications, every project is designed to turn visitors into customers.',
+            'features' => [
+                'Custom Laravel & PHP development',
+                'WordPress & headless CMS solutions',
+                'Mobile app design & development',
+                'Landing pages that convert',
+                'Speed optimization & Core Web Vitals',
+            ],
+            'metrics' => ['3X Conversion Rate', '100% Mobile Responsive'],
+        ],
+        'shopify-ecommerce' => [
+            'title' => 'Shopify Development',
+            'badge' => 'E-Commerce',
+            'icon' => 'cart',
+            'short' => 'Custom Shopify stores, theme development, and e-commerce growth strategies that scale.',
+            'description' => 'From store setup to custom theme development, Shopify Plus migrations, and conversion rate optimization — we build e-commerce experiences that drive sales and customer loyalty.',
+            'features' => [
+                'Custom Shopify theme development',
+                'Shopify Plus setup & migration',
+                'Payment gateway & app integration',
+                'Product catalog & inventory setup',
+                'CRO & abandoned cart recovery',
+            ],
+            'metrics' => ['4X Sales Growth', '2X Cart Recovery'],
+        ],
+        'social-media-content' => [
+            'title' => 'Social Media & Content',
+            'badge' => 'Fast-Moving',
+            'icon' => 'share',
+            'short' => 'Organic and paid social that builds audience, authority and demand across every stage.',
+            'description' => 'Strategic social media marketing backed by content built to convert. We manage your presence across Instagram, LinkedIn, YouTube, and emerging platforms with creative that resonates.',
+            'features' => [
+                'Social media strategy & management',
+                'Content creation & copywriting',
+                'YouTube & influencer marketing',
+                'Community management & engagement',
+                'Paid social campaign management',
+            ],
+            'metrics' => ['4X–8X Engagement', '3X–8X Lead Growth'],
+        ],
+        'branding-reputation' => [
+            'title' => 'Branding & Reputation',
+            'badge' => 'Trust Builder',
+            'icon' => 'shield',
+            'short' => 'Identity, creative and reputation management that make your brand impossible to ignore.',
+            'description' => 'Build a brand that customers recognize and trust. From logo design to online reputation management, we protect and amplify your brand across every digital touchpoint.',
+            'features' => [
+                'Brand identity & logo design',
+                'Online reputation management (ORM)',
+                'Review generation & management',
+                'Personal branding for leaders',
+                'Brand guidelines & creative assets',
+            ],
+            'metrics' => ['100–1000% Brand Exposure', '5-Star Reputation'],
+        ],
+        'ai-automation' => [
+            'title' => 'AI Automation',
+            'badge' => 'Future Ready',
+            'icon' => 'cpu',
+            'short' => 'Chatbots, agents and workflow automation that capture, qualify and nurture leads 24/7.',
+            'description' => 'Leverage AI to automate lead capture, customer support, and marketing workflows. Our AI solutions integrate with your CRM to nurture prospects around the clock.',
+            'features' => [
+                'AI chatbots & virtual assistants',
+                'Lead qualification automation',
+                'CRM integration & workflow automation',
+                'AI-powered content generation',
+                'Predictive analytics & insights',
+            ],
+            'metrics' => ['24/7 Lead Capture', '60% Cost Reduction'],
+        ],
+    ],
+
+    'problems' => [
+        [
+            'title' => 'Not Getting Results from Marketing',
+            'description' => 'You may be running campaigns and boosting ads, but traffic is not turning into leads or sales. We fix the gaps that stop your marketing from performing.',
+            'metric' => 'Boost ROI by 250%',
+        ],
+        [
+            'title' => 'Getting Traffic, But Not Leads',
+            'description' => 'Your website gets visitors, but if they are not converting, you are missing qualified inquiries and real business results.',
+            'metric' => '3X Conversion Rate',
+        ],
+        [
+            'title' => 'No Clear Digital Strategy',
+            'description' => 'Trying SEO, social, paid ads without a plan leads to wasted effort. We create data-driven strategies that guide long-term growth.',
+            'metric' => 'Strategic Clarity',
+        ],
+        [
+            'title' => 'Low Visibility in AI Search',
+            'description' => 'AI platforms are reshaping how customers discover brands. We ensure your business stays visible on ChatGPT, Gemini, and AI Overviews.',
+            'metric' => 'AI-Ready Brand',
+        ],
+    ],
+
+    'testimonials' => [
+        [
+            'name' => 'Rajesh Kumar',
+            'role' => 'CEO, TechVenture India',
+            'text' => 'SoftEnture transformed our digital presence completely. Our organic traffic grew 340% in 8 months and we are now ranking on page 1 for all target keywords.',
+            'rating' => 5,
+        ],
+        [
+            'name' => 'Sarah Mitchell',
+            'role' => 'Marketing Director, Ease Travels',
+            'text' => 'Their PPC strategy delivered 9.2X ROAS on our travel campaigns. The team is transparent, data-driven, and genuinely invested in our growth.',
+            'rating' => 5,
+        ],
+        [
+            'name' => 'Amit Sharma',
+            'role' => 'Founder, StyleHub E-commerce',
+            'text' => 'Our Shopify store went from ₹2L to ₹18L monthly revenue after SoftEnture rebuilt our store and optimized our conversion funnel.',
+            'rating' => 5,
+        ],
+    ],
+
+    'partners' => ['Google Partner', 'Meta Business Partner', 'Shopify Expert', 'Semrush Agency', 'HubSpot Partner', 'Microsoft Advertising'],
+];
